@@ -173,7 +173,7 @@ export class CarouselComponent implements OnDestroy {
     return void 0;
   }
 
-  private getCurrentIndex():number {
+  getCurrentIndex():number {
     return !this.currentSlide ? 0 : this.currentSlide.index;
   }
 
